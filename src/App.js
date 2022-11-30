@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Mission from "./pages/Mission";
+import Services from "./pages/Services";
+import AboutCCS from "./pages/AboutCCS";
+import NoMatch from "./pages/NoMatch"
+import "./App.css";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+        <section id="bg">
+        <Header/>
+            <Router>
+                <div className="flex-column justify-flex-start min-100-vh">
+                    <div className="page-container">
+                        <Routes>
+                            <Route path="/" element={<Home />} />
+                            <Route path="/contact" element={<Contact />} />
+                            <Route path="/services" element={<Services />} />
+                            <Route path="/mission" element={<Mission />} />
+                            <Route path="/about" element={<AboutCCS />} />
+                            <Route path="*" element={<NoMatch />} />
+                        </Routes>
+                    </div>
+                </div>
+            </Router>
+            <Footer />
+            </section>
+        </>
+    );
 }
 
 export default App;
