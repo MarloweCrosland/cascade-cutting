@@ -6,7 +6,7 @@ import TreeService2 from "../TreeServices2";
 
 export default function TreeService() {
     return (
-        <>
+        <div id="section-container">
             <div className="photos">
                 <div className="photo-container">
                     <img alt="before" src={require("./before.jpg")}></img>
@@ -19,13 +19,13 @@ export default function TreeService() {
 
             <div className="text-container">
                 <h3>Tree Pruning</h3>
-                At CascadeCutting Services, our tree experts specialize in both
+                At Cascade Cutting Services, our tree experts specialize in both
                 residential and commercial properties. We can remove hazardous
-                trees, as well as prune and trim to keep trees healthy. We can
-                even grind your stumps to complete the job and leave no trace of
-                the tree behind. No tree is too large or too small!
+                trees, as well as prune and trim to keep trees healthy. No tree is too large or too small!
             </div>
 
-        </>
+            
+
+        </div>
     );
 }

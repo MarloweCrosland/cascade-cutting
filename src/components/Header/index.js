@@ -21,7 +21,7 @@ const Header = () => {
                         />
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link className="links"href="/about">About CCS</Nav.Link>
+                        <Nav.Link className="links"href="/">About CCS</Nav.Link>
                         <Nav.Link className="links"href="/contact">Contact Us</Nav.Link>
                         <Nav.Link className="links"href="/services">Services</Nav.Link>
                         <Nav.Link className="links"href="/mission">Our Mission</Nav.Link>

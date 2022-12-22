@@ -1,7 +1,13 @@
 import React from 'react'
+import TreeService from '../components/TreeServices'
+import TreeService2 from '../components/TreeServices2'
 
 export default function Services() {
   return (
-    <div>Services</div>
+    <>
+    <TreeService></TreeService>
+    <br></br>
+    <TreeService2></TreeService2>
+    </>
   )
 }

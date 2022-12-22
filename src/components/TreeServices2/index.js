@@ -5,7 +5,7 @@ import "./index.css";
 
 export default function TreeService2() {
     return (
-        <>
+        <div id="section-container">
 
             <div className="text-container">
                 <h3>Tree Pruning</h3>
@@ -26,6 +26,6 @@ export default function TreeService2() {
                     <img alt="after" src={require("./after.jpg")}></img>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

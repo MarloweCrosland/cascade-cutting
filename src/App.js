@@ -8,7 +8,6 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
 import Services from "./pages/Services";
-import AboutCCS from "./pages/AboutCCS";
 import NoMatch from "./pages/NoMatch"
 import "./App.css";
 
@@ -27,7 +26,6 @@ function App() {
                             <Route path="/contact" element={<Contact />} />
                             <Route path="/services" element={<Services />} />
                             <Route path="/mission" element={<Mission />} />
-                            <Route path="/about" element={<AboutCCS />} />
                             <Route path="*" element={<NoMatch />} />
                         </Routes>
                     </div>

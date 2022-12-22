@@ -6,7 +6,7 @@ import "./index.css";
 export default function Home() {
     return (
         <>
-            <TreeService></TreeService>
+        ABOUT CCS
         </>
     );
 }
