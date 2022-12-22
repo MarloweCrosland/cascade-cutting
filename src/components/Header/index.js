@@ -21,10 +21,10 @@ const Header = () => {
                         />
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link className="links"href="/">About CCS</Nav.Link>
-                        <Nav.Link className="links"href="/contact">Contact Us</Nav.Link>
-                        <Nav.Link className="links"href="/services">Services</Nav.Link>
-                        <Nav.Link className="links"href="/mission">Our Mission</Nav.Link>
+                        <Nav.Link className="links"href="/"><b>About CCS</b></Nav.Link>
+                        <Nav.Link className="links"href="/contact"><b>Contact Us</b></Nav.Link>
+                        <Nav.Link className="links"href="/services"><b>Services</b></Nav.Link>
+                        <Nav.Link className="links"href="/mission"><b>Our Mission</b></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

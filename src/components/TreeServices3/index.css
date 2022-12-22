@@ -1,0 +1,34 @@
+#section-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container{
+    max-width: 40vw;
+    margin-left: 20px;
+    font-size: 1rem;
+    color: white;
+
+}
+.photos{
+    display:flex;
+    flex-direction: row;
+}
+.photo-container img{
+    height: auto;
+    max-width: 25vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .photos { 
+        display:flex;
+        flex-direction: column;
+    }
+
+    .photo-container img{
+        max-width: 50vw;
+        height: auto;
+    }
+}

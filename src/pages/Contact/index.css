@@ -1,0 +1,10 @@
+#card-main{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+#card-img{
+    width: 50vw;
+    margin-left: 5vw;
+}
