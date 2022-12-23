@@ -2,9 +2,20 @@
     text-align: center;
     background-color: transparent;
     border: none;
+    border-radius: 5%;
 }
 
 #card-img{
     width: 50vw;
     margin-left: 5vw;
+}
+
+.link-logos{
+width: 8vw;
+margin-top: 5px;
+height: auto;
+}
+
+.center-text{
+    text-align: center;
 }

@@ -1,6 +1,11 @@
 #section-container{
+    background-color: #282c34;
     display: flex;
     flex-direction: row;
+    border-bottom: 7px solid #282c34;
+    border-top: 7px solid #282c34;
+    border-right: 5px solid #282c34;
+    border-radius: 5px
 }
 
 .text-container{

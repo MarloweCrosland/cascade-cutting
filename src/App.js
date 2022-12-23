@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 
 import Contact from "./pages/Contact/Contact";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Mission from "./pages/Mission";
 import Services from "./pages/Services";
 import NoMatch from "./pages/NoMatch"
